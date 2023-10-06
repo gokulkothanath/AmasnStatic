@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="mt-0">
+  <header class="bg-secondary" style="position: fixed; width:100%; z-index: 1;">
+        <div class="row text-white">
+            <div class="col-md-6 col-9">
+              <img class="p-3" style="width: 100px; height: 60px;" src="images/IRCTC_Logo.svg.png"> 
+            </div>
+            <div class="col-md-6 col-3 my-auto">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="#Home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#Holidays">Holidays</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#About">About</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+  </header>
+  <section class="p-5 bg-secondary">
+  </section>
+  <section class="bg-secondary z-index:2" id="Home">
+    <div class="" style="background-image:url(images/wp12183315.webp);height:100%; width:100%;">
+      <div class="container p-5">
+        <div class="row p-5">
+          <form class="text-white">
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationServer01">From</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" placeholder="From" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationServer02">To</label>
+                <input type="text" class="form-control is-valid" id="validationServer02" placeholder="To" value="Otto" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationServerUsername">Class</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend3">CL</span>
+                  </div>
+                  <select class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+                    <option>All classes</option>
+                    <option>First Class</option>
+                    <option>Sleeper</option>
+                    <option>Chair Car</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please choose a Class.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationServer03">Name</label>
+                <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Name" required>
+                <div class="invalid-feedback">
+                  Please provide a valid Name.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationServer04">State</label>
+                <input type="number" class="form-control is-invalid" id="validationServer04" placeholder="Age" required>
+                <div class="invalid-feedback">
+                  Please provide a valid Age.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationServer05">Zip</label>
+                <input type="date" class="form-control is-invalid" id="validationServer05" required>
+                <div class="invalid-feedback">
+                  Please provide a valid Date.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                <label class="form-check-label" for="invalidCheck3">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-secondary p-4" id="Holidays">
+    <h2 class="text-center" style="color:white;">Holidays</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center p-3 bg-light" style="width: 20rem; height: 25em;">
+            <img src="images/a.jpg" class="card-img-top" style="height: 16em;" alt="">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text" style="font: size 1em;"><b>Maharaj's Express</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3 bg-light" style="width: 20rem; height: 25em;">
+            <img src="images/b.jpg" class="card-img-top" style="height: 16em;" alt="">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text" style="font: size 1em;"><b>International Packages</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-3 bg-light" style="width: 20rem; height: 25em;">
+            <img src="images/c.jpg" class="card-img-top" style="height: 16em;" alt="">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text" style="font: size 1em;"><b>Domestic Air Packages</b></p>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4 p-3">
+            <div class="card text-center p-3 bg-light" style="width: 20rem; height: 25em;">
+              <img src="images/d.jpg" class="card-img-top" style="height: 16em;" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text" style="font: size 1em;"><b>Bharat Gaurav Train</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="card text-center p-3 bg-light" style="width: 20rem; height: 25em;">
+              <img src="images/e.jpg" class="card-img-top" style="height: 16em;" alt="">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text" style="font: size 1em;"><b>Rail Tour Packages</b></p>
+              </div>
+            </div>
+          </div>
+  
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark" id="About">
+    <div class="container">
+      <div class="col-md-12 text-center text-white">
+        <p>copy rights <br> Get connected with us on social media</p>
+  
+      </div>
+    </div>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
